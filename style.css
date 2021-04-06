@@ -1,0 +1,74 @@
+/*!
+Theme Name: tonsitemaster
+Theme URI: http://underscores.me/
+Author: Nikolay Dmytrotsa
+Author URI: http://underscores.me/
+Description: Tonsi Temaster
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: tonsitemaster
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+ul.sub-menu .lang-item  {
+  padding-top: 8px;
+}
+
+ul.sub-menu {
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  position: absolute;
+
+  transition: .3s;
+	
+  
+ 
+}
+.menu-language-container:hover  li ul.sub-menu{
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+@media screen and (max-width: 767px){
+	.elementor-890 .elementor-element.elementor-element-11de245e .line-block__inner {
+		max-width: 100% !important;
+		width: 100%;
+	}
+}
